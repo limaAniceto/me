@@ -1,46 +1,30 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
+import {Navbar, Nav, NavItem} from 'react-bootstrap';
+import Home from './Home/Home';
+import Technologies from './Technologies/Technologies';
 import styled from 'styled-components';
-import FontAwesome from 'react-fontawesome';
 
 class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <NavBar>
-            <StyledBar name='bars' size='2x' />
-            <ApplicationTitle>Me</ApplicationTitle>
-        </NavBar>
-        <Container>
-            Something
-        </Container>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <Router>
+                <StyledContainer>
+                    <Navbar fluid style={{marginBottom: "0"}} inverse staticTop>
+                        <Nav>
+                            <NavItem componentClass={Link} href="/" to="/" >Home</NavItem>
+                        </Nav>
+                    </Navbar>
+                    <Switch>
+                        <Route exact path='/' component={Home}/>
+                    </Switch>
+                </StyledContainer>
+            </Router>
+        );
+    }
 }
-/* ------------- Styles ----------------*/
-
-const ApplicationTitle = styled.div`
-    font-size: 2.0em;
-    
-`;
-const StyledBar = styled(FontAwesome)`
-    margin: 10px;
-    cursor: pointer; 
-`;
-const NavBar = styled.div`
+const StyledContainer = styled.div`
     display: flex;
-    min-height: 30px;
-    text-align: left;
-    background-color: #141414;
-    color: white;
+    flex-direction: column;
 `;
-const Container = styled.div`
-    background: #0F2027;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    min-height: 100%;
-`;
-
 export default App;

@@ -1,4 +1,4 @@
-﻿# Personal App
+﻿# WIP: Personal App
 
 This is just a small web-app to describe a bit of what I do and the technologies I use.
 

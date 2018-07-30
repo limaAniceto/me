@@ -82,6 +82,7 @@ const Container = styled.div`
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 `;
 const Card = styled.div`
     background-color: #fafafa;

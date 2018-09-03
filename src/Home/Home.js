@@ -35,11 +35,11 @@ class Home extends Component {
                 label: 'Current Work',
                 key: 'currWork',
                 image: work,
-                text: "Currently I work for BNP Paribas, developing Web applications (frontend/backend).",
+                text: "Currently I work for BNP Paribas as a Software Engineer on Web applications (frontend/backend).",
                 list: ['Technologies - React, GraphQL, Apollo, Node.JS',
                     'Agile methodology with dailies featuring project sponsors, designer, data scientists and analysts',
                     'MicroServices architurecture, more specifically backends for frontends',
-                    'Big data applications since each app must be accessible to every BNP employee and also serve large amounts of data']
+                    'Big data apps since each application serves large amounts of data']
             }];
 
         return (
@@ -75,7 +75,6 @@ class Home extends Component {
 /* ----------------- Styles ----------------- */
 const Container = styled.div`
     flex: 1;
-    
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -90,10 +89,10 @@ const Card = styled.div`
     &:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
-    min-height: 500px
-    max-height: 700px;
-    min-width: 400px;
-    max-width: 400px;
+    min-height: 600px
+    max-height: 600px;
+    min-width: 380px;
+    max-width: 380px;
     margin: 30px;
     &:hover {
         box-shadow: 0 15px 15px rgba(0, 0, 0, .16);
@@ -112,8 +111,8 @@ const Avatar = styled.div`
     background-color: white;
     border-radius: 50%;
     border: 3px solid grey;
-     width: 200px;
-height: 200px;      
+    width: 200px;
+    height: 200px;      
     justify-content: center;
     align-items: center;
     display: flex;

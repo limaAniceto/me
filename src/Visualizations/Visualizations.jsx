@@ -1,39 +1,24 @@
 import React, { Component} from 'react';
 import styled from 'styled-components';
 
-const cards = [
-    {
-        label: 'D3JS',
-        key: 'career',
-        text: "Since I started studying I've been learning something new about technology every day.",
-        list: ['Unix environments management, as a Sys-Admin assistant for the University',
-            'Web & Big Data Application Development for specific purposes in the Financial Services and Insurance industry, as Consultant for a Big4',
-            'Web applications for serving Big Data, widely used internaly by BNP Paribas'
-        ],
-    },
-    {
-        label: 'ThreeJS',
-        key: 'career',
-        text: "Since I started studying I've been learning something new about technology every day.",
-        list: ['Unix environments management, as a Sys-Admin assistant for the University',
-            'Web & Big Data Application Development for specific purposes in the Financial Services and Insurance industry, as Consultant for a Big4',
-            'Web applications for serving Big Data, widely used internaly by BNP Paribas'
-        ],
-    },
-    ];
+import D3Vis from './D3Vis';
+import ThreeVis from './ThreeVis';
 
 class Visualizations extends Component {
+
     render() {
         return (
             <Container>
             <Card key='d3js'>
                 <CardContent>
-                    <h2>D3JS</h2>
+                    <h2>D3.JS</h2>
+                    <D3Vis/>
                 </CardContent>
             </Card>
             <Card key='threejs'>
                 <CardContent>
-                    <div ref={element => this.threeRootElement = element} />
+                    <h2>Three.JS</h2>
+                    <ThreeVis/>
                 </CardContent>
             </Card>
             </Container>
@@ -63,7 +48,7 @@ const Card = styled.div`
     max-height: 550px;
     min-width: 550px;
     max-width: 550px;
-    margin: 30px;
+    margin: 10px;
     &:hover {
         box-shadow: 0 15px 15px rgba(0, 0, 0, .16);
         transform: translate(0, -5px);

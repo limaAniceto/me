@@ -32,8 +32,8 @@ const cards = [
         label: 'Current Work',
         key: 'currWork',
         image: work,
-        text: "Currently I work for BNP Paribas as a Software Engineer on Web applications (frontend/backend).",
-        list: ['Technologies - React, GraphQL, Apollo, Node.JS, D3',
+        text: "Currently I work for Mixcloud as a Javascript Engineer.",
+        list: ['Technologies - React, GraphQL, Apollo, Node.JS, D3.JS, React Native',
             'Agile methodology with dailies featuring project sponsors, designer, data scientists and analysts',
             'MicroServices architurecture, more specifically backends for frontends',
             'Big data apps since each application serves large amounts of data']
@@ -86,8 +86,8 @@ const Card = styled.div`
     }
     min-height: 550px
     max-height: 550px;
-    min-width: 380px;
-    max-width: 380px;
+    min-width: 300px;
+    max-width: 300px;
     margin: 30px;
     &:hover {
         box-shadow: 0 15px 15px rgba(0, 0, 0, .16);

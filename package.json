@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "http://limaAniceto.github.io/me",
   "dependencies": {
+    "d3": "^5.7.0",
     "font-awesome": "^4.7.0",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.3",

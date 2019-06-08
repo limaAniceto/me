@@ -21,8 +21,8 @@ const cards = [
     text:
       "I've worked in the Financial and Insurance industry, currently I'm focused on pushing the music streaming industry at Mixcloud.",
     list: [
-      "Unix environments management, as a Sys-Admin assistant for the University",
-      "Web & Big Data Application Development for specific purposes in the Financial Services and Insurance industry, as Consultant for a Big4",
+      "Unix environments management, as Sys-Admin assistant for the University",
+      "Web & Big Data Application Development for the industries of Financial Services/Insurance , as Consultant for a Big4",
       "Web applications for serving Big Data, widely used internaly by BNP Paribas",
       "Developing software for Mixcloud - Using the latest tech to change the Music scene"
     ]

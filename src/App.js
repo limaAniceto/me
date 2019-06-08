@@ -30,7 +30,7 @@ class App extends Component {
             </Nav>
           </StyledNavBar>
           <Switch>
-            <Route exact path={`${process.env.PUBLIC_URL}/`} component={Home} />
+            <Route exact path={`${process.env.PUBLIC_URL}`} component={Home} />
             <Route
               exact
               path={`${process.env.PUBLIC_URL}/vis`}

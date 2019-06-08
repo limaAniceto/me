@@ -1,16 +1,10 @@
 html,
 body,
-#app,
-#app > div {
-  background: #bdc3c7; /* fallback for old browsers */
-}
-
-html,
-body,
-#app,
-#app > div {
+#root,
+#root > div {
   height: 100%;
 }
+
 body {
   font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans",
     "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed",

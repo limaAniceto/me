@@ -1,12 +1,19 @@
-html, body, #app, #app>div {
-  background: #bdc3c7;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+html,
+body,
+#app,
+#app > div {
+  background: #bdc3c7; /* fallback for old browsers */
 }
 
-html, body, #app, #app>div {
-  height: 100%
+html,
+body,
+#app,
+#app > div {
+  height: 100%;
 }
 body {
-  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans", "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;;
+  font-family: Frutiger, "Frutiger Linotype", Univers, Calibri, "Gill Sans",
+    "Gill Sans MT", "Myriad Pro", Myriad, "DejaVu Sans Condensed",
+    "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue",
+    Helvetica, Arial, sans-serif;
 }

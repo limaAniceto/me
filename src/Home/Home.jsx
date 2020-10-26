@@ -21,10 +21,10 @@ const cards = [
     text:
       "Bachelors and Masters in Computer Science and with several years of experience in Software Development.",
     list: [
-      "Sys-Admin assistant for the University",
-      "Web & Big Data Application Development for the industries of Financial Services/Insurance",
-      "Web applications for serving Big Data, widely used internaly by BNP Paribas",
-      "Product development at Mixcloud"
+      "Sys-Admin assistant at University, maintaining Server Rooms",
+      "Web & Big Data Application Development for the industries of Financial Services at Deloitte Analytics Group",
+      "Web applications for visualizing/assisting investment bankers, widely used internaly by BNP Paribas.",
+      "Software Product development at Mixcloud, on one of the largest Music Streaming platforms worldwide where 25 million users upload 2 hours of content, every 3 minutes."
     ]
   },
   {
@@ -32,10 +32,10 @@ const cards = [
     key: "tech",
     image: tech,
     text:
-      "Having worked with Technology for more than 10 years, I've worked with quite some different environments and industries. See below what I've been using:",
+      "With more than 10 years of experience, I've used different tools depending on the job. See below what I've been using:",
     list: [
       "Frontend Frameworks - Angular, React, React Native, Vue",
-      "Databases - DataStax, Redis, SQL Server, MariaDB",
+      "Databases - DataStax, Redis, SQL Server, MariaDB, MongoDB",
       "Visualization libs for the Web - D3.js and Three.js",
       "App Development - Android and iOS",
       "ETL and setting up large scale environments - Hadoop",
@@ -47,7 +47,7 @@ const cards = [
     key: "currWork",
     image: work,
     text:
-      "Currently I work for Mixcloud as a Software Engineer. My responsabilities are to maintain/improve the existing codebase, to implement new features and to get them to the hands of our users. These are some of the challenges I face:",
+      "Currently I work for Mixcloud as a Software Engineer. These are some of the challenges I face:",
     list: [
       "Moving Relay Classic to Relay Modern, upgrading out-of-date libs and code",
       "Moving the Angular mobile-web into React and with a Visual refresh while maintaning the best practices",

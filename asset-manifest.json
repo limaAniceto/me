@@ -1,12 +1,25 @@
 {
-  "main.css": "static/css/main.d7d4860c.css",
-  "main.css.map": "static/css/main.d7d4860c.css.map",
-  "main.js": "static/js/main.e9f75267.js",
-  "main.js.map": "static/js/main.e9f75267.js.map",
-  "static/media/fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
-  "static/media/fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.912ec66d.svg",
-  "static/media/fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
-  "static/media/fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
-  "static/media/fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
-  "static/media/work.png": "static/media/work.d734cae1.png"
+  "files": {
+    "main.css": "/me/static/css/main.dd35e118.chunk.css",
+    "main.js": "/me/static/js/main.f7eac237.chunk.js",
+    "main.js.map": "/me/static/js/main.f7eac237.chunk.js.map",
+    "runtime-main.js": "/me/static/js/runtime-main.dfd42033.js",
+    "runtime-main.js.map": "/me/static/js/runtime-main.dfd42033.js.map",
+    "static/css/2.357163a5.chunk.css": "/me/static/css/2.357163a5.chunk.css",
+    "static/js/2.51a0c7b0.chunk.js": "/me/static/js/2.51a0c7b0.chunk.js",
+    "static/js/2.51a0c7b0.chunk.js.map": "/me/static/js/2.51a0c7b0.chunk.js.map",
+    "index.html": "/me/index.html",
+    "static/css/2.357163a5.chunk.css.map": "/me/static/css/2.357163a5.chunk.css.map",
+    "static/css/main.dd35e118.chunk.css.map": "/me/static/css/main.dd35e118.chunk.css.map",
+    "static/js/2.51a0c7b0.chunk.js.LICENSE.txt": "/me/static/js/2.51a0c7b0.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/me/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/work.ee41c562.png": "/me/static/media/work.ee41c562.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dfd42033.js",
+    "static/css/2.357163a5.chunk.css",
+    "static/js/2.51a0c7b0.chunk.js",
+    "static/css/main.dd35e118.chunk.css",
+    "static/js/main.f7eac237.chunk.js"
+  ]
 }

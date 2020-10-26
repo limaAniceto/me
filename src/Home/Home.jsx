@@ -19,12 +19,12 @@ const cards = [
     key: "career",
     image: career,
     text:
-      "I've worked in the Financial and Insurance industry, currently I'm focused on pushing the music streaming industry at Mixcloud.",
+      "Bachelors and Masters in Computer Science and with several years of experience in Software Development.",
     list: [
-      "Unix environments management, as Sys-Admin assistant for the University",
-      "Web & Big Data Application Development for the industries of Financial Services/Insurance, as Consultant for a Big4",
+      "Sys-Admin assistant for the University",
+      "Web & Big Data Application Development for the industries of Financial Services/Insurance",
       "Web applications for serving Big Data, widely used internaly by BNP Paribas",
-      "Developing software for Mixcloud - Using the latest tech to change the Music scene"
+      "Product development at Mixcloud"
     ]
   },
   {
@@ -34,11 +34,12 @@ const cards = [
     text:
       "Having worked with Technology for more than 10 years, I've worked with quite some different environments and industries. See below what I've been using:",
     list: [
-      "Unix OS",
-      "Web Frameworks - Angular and React (Only work with React at the moment)",
-      "Databases - Mostly NoSQL databases (DataStax, Redis) and SQL Server",
-      "Visualization Specific libs for the Web (2D and 3D)",
-      "ETL and setting up large scale environments such as Hadoop"
+      "Frontend Frameworks - Angular, React, React Native, Vue",
+      "Databases - DataStax, Redis, SQL Server, MariaDB",
+      "Visualization libs for the Web - D3.js and Three.js",
+      "App Development - Android and iOS",
+      "ETL and setting up large scale environments - Hadoop",
+      "Backend - Django and Node"
     ]
   },
   {
@@ -46,11 +47,12 @@ const cards = [
     key: "currWork",
     image: work,
     text:
-      "Currently I work for Mixcloud as a Javascript Engineer. In short I work as a Full Stack Software Engineer, using the following technologies - React, GraphQL, Relay, React Native. These are some of the challenges I face:",
+      "Currently I work for Mixcloud as a Software Engineer. My responsabilities are to maintain/improve the existing codebase, to implement new features and to get them to the hands of our users. These are some of the challenges I face:",
     list: [
       "Moving Relay Classic to Relay Modern, upgrading out-of-date libs and code",
-      "Demonstrating the best practices and implementing them.",
-      "Achieving a more collaborative codebase for both designers and engineers"
+      "Moving the Angular mobile-web into React and with a Visual refresh while maintaning the best practices",
+      "Integrating an app release schedule and make sure we deliver the roadmap in the agreed timelines",
+      "Estimating and implementing new features/systems start-to-end, such as the Livestreams on the app"
     ]
   }
 ];

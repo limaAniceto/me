@@ -17,6 +17,7 @@ const Card = styled.div`
     &:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
+    height: 600px;
     min-height: 600px
     max-height: 600px;
     min-width: 350px;

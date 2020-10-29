@@ -3,11 +3,10 @@
 This is just a small web-app to describe a bit of what I do and the technologies I use.
 
 Feel free to check it running on:
-* https://limaaniceto.github.io/me/
+* https://aniceto.dev
 
 ## TODO
 This is just a list of the work-in-progress:
-* Mobile responsiveness
 * Add more pages
 * Add some D3 components to showcase
 * Add some state Jest tests

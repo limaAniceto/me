@@ -35,24 +35,25 @@ const cards = [
       "With more than 10 years of experience, I've used different tools depending on the job. See below what I've been using:",
     list: [
       "Frontend Frameworks - Angular, React, React Native, Vue",
+      "Backend development - Python, Django, Node",
       "Databases - DataStax, Redis, SQL Server, MariaDB, MongoDB",
       "Visualization libs for the Web - D3.js and Three.js",
-      "App Development - Android and iOS",
+      "App Development - React Native, Android and iOS",
       "ETL and setting up large scale environments - Hadoop",
-      "Backend - Django and Node"
     ]
   },
   {
-    label: "Current Work",
+    label: "Recent Work",
     key: "currWork",
     image: work,
     text:
-      "Currently I work for Mixcloud as a Software Engineer. These are some of the challenges I face:",
+      "In my previous role at Mixcloud these were some of the challenges I faced:",
     list: [
       "Moving Relay Classic to Relay Modern, upgrading out-of-date libs and code",
       "Moving the Angular mobile-web into React and with a Visual refresh while maintaning the best practices",
       "Integrating an app release schedule and make sure we deliver the roadmap in the agreed timelines",
-      "Estimating and implementing new features/systems start-to-end, such as the Livestreams on the app"
+      "Estimating and implementing new features/systems start-to-end on different platforms, such as the Livestreams on the app",
+      "Development of payments in the backend/frontend and removing legacy payment systems",
     ]
   }
 ];

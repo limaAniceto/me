@@ -20,13 +20,13 @@ class App extends Component {
               >
                 Home
               </NavItem>
-              {/* <NavItem
+              <NavItem
                 componentClass={Link}
                 href={`${process.env.PUBLIC_URL}/vis`}
                 to={`${process.env.PUBLIC_URL}/vis`}
               >
                 Visualizations
-              </NavItem> */}
+              </NavItem>
             </Nav>
           </StyledNavBar>
           <Switch>

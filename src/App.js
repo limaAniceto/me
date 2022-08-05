@@ -11,6 +11,24 @@ class App extends Component {
     return (
       <Router>
         <StyledContainer>
+          <StyledNavBar fluid style={{ marginBottom: "0" }} inverse staticTop>
+            <Nav>
+              <NavItem
+                componentClass={Link}
+                href={`${process.env.PUBLIC_URL}/`}
+                to={`${process.env.PUBLIC_URL}/`}
+              >
+                Home
+              </NavItem>
+              {/* <NavItem
+                componentClass={Link}
+                href={`${process.env.PUBLIC_URL}/vis`}
+                to={`${process.env.PUBLIC_URL}/vis`}
+              >
+                Visualizations
+              </NavItem> */}
+            </Nav>
+          </StyledNavBar>
           <Switch>
             <Route exact path={`${process.env.PUBLIC_URL}`} component={Home} />
             <Route

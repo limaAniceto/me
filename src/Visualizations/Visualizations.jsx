@@ -9,18 +9,26 @@ class Visualizations extends Component {
     render() {
         return (
             <Container>
-            <Card key='d3js'>
-                <CardContent>
-                    <h2>D3.JS</h2>
-                    <D3Vis/>
-                </CardContent>
-            </Card>
-            <Card key='threejs'>
-                <CardContent>
-                    <h2>Three.JS</h2>
-                    <ThreeVis/>
-                </CardContent>
-            </Card>
+                <Card key='vis-description' height={200}>
+                    <CardContent>
+                        <h2>Description</h2>
+                        <p>In this page I'd like to show an easy way to integrate D3.JS and Three.js into a React App</p>
+                    </CardContent>
+                </Card>
+                <div style={{ display: 'flex', flexDirection: 'row'}}>
+                    <Card key='d3js'>
+                        <CardContent>
+                            <h2>D3.JS</h2>
+                            <D3Vis/>
+                        </CardContent>
+                    </Card>
+                    <Card key='threejs'>
+                        <CardContent>
+                            <h2>Three.JS</h2>
+                            <ThreeVis/>
+                        </CardContent>
+                    </Card>
+                </div>
             </Container>
         );
     }
@@ -28,14 +36,10 @@ class Visualizations extends Component {
 
 /* ----------------- Styles ----------------- */
 const Container = styled.div`
-    flex: 1;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    background: -webkit-linear-gradient(to top, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 `;
 
 const Card = styled.div`
@@ -45,10 +49,11 @@ const Card = styled.div`
     &:hover {
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     }
-    min-height: 550px;
+    height: ${({height}) => height ? height : "550px" } ;
     max-height: 550px;
-    min-width: 550px;
+    width: 550px;
     max-width: 550px;
+    width: 550px;
     margin: 10px;
     &:hover {
         box-shadow: 0 15px 15px rgba(0, 0, 0, .16);
@@ -62,16 +67,6 @@ const CardContent = styled.div`
     justify-content: center;
     align-items: center;
     margin: 20px;
-`;
-const Avatar = styled.div`
-    background-color: white;
-    border-radius: 50%;
-    border: 3px solid grey;
-    width: 140px;
-    height: 140px;      
-    justify-content: center;
-    align-items: center;
-    display: flex;
 `;
 const StyledImg = styled.img`
     max-width: 60%;

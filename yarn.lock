@@ -5371,7 +5371,7 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-gh-pages@^1.2.0:
+gh-pages@1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/gh-pages/-/gh-pages-1.2.0.tgz#1acb92801078f7c038a167f447221d1496ccfbee"
   integrity sha512-cGLYAvxtlQ1iTwAS4g7FreZPXoE/g62Fsxln2mmR19mgs4zZI+XJ+wVVUhBFCF/0+Nmvbq+abyTWue1m1BSnmg==
@@ -8977,6 +8977,11 @@ prepend-http@^1.0.0:
   resolved "https://registry.yarnpkg.com/prepend-http/-/prepend-http-1.0.4.tgz#d4f4562b0ce3696e41ac52d0e002e57a635dc6dc"
   integrity sha1-1PRWKwzjaW5BrFLQ4ALlemNdxtw=
 
+prettier@2.7.1:
+  version "2.7.1"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-2.7.1.tgz#e235806850d057f97bb08368a4f7d899f7760c64"
+  integrity sha512-ujppO+MkdPqoVINuDFDRLClm7D78qbDt0/NR+wp5FqEZOoTNAjPHWj17QRhu7geIHJfcNhRk1XVQmF8Bp3ye+g==
+
 pretty-bytes@^5.3.0:
   version "5.4.1"
   resolved "https://registry.yarnpkg.com/pretty-bytes/-/pretty-bytes-5.4.1.tgz#cd89f79bbcef21e3d21eb0da68ffe93f803e884b"
@@ -10822,7 +10827,7 @@ text-table@0.2.0, text-table@^0.2.0:
   resolved "https://registry.yarnpkg.com/text-table/-/text-table-0.2.0.tgz#7f5ee823ae805207c00af2df4a84ec3fcfa570b4"
   integrity sha1-f17oI66AUgfACvLfSoTsP8+lcLQ=
 
-three@^0.96.0:
+three@0.96.0:
   version "0.96.0"
   resolved "https://registry.yarnpkg.com/three/-/three-0.96.0.tgz#6f48bb9e321506906ae4708bda69b0ffa808ee7f"
   integrity sha512-tS+A5kelQgBblElc/E1G5zR3m6wNjbqmrf6OAjijuNJM7yoYQjOktPoa+Lglx73OTiTOJ3+Ff+pgWdOFt7cOhQ==

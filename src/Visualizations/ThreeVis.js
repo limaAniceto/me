@@ -67,7 +67,7 @@ class ThreeVis extends Component {
     return (
       <div
         style={{ width: "300px", height: "300px" }}
-        ref={mount => {
+        ref={(mount) => {
           this.mount = mount;
         }}
       />

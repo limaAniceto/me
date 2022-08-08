@@ -23,8 +23,9 @@
     "eject": "react-scripts eject"
   },
   "devDependencies": {
-    "gh-pages": "^1.2.0",
-    "three": "^0.96.0"
+    "gh-pages": "1.2.0",
+    "prettier": "2.7.1",
+    "three": "0.96.0"
   },
   "browserslist": {
     "production": [

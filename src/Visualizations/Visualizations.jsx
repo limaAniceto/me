@@ -12,7 +12,7 @@ class Visualizations extends Component {
           <CardContent>
             <h2>Description</h2>
             <p>
-              In this page I'd like to show an easy way to integrate D3.JS and
+              In this page you can find examples on how to integrate D3.JS and
               Three.js into a React App
             </p>
           </CardContent>

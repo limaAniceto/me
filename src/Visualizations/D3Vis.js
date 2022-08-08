@@ -1,5 +1,3 @@
-// Put here the d3 js stuff
-
 import React, { Component } from "react";
 import * as d3 from "d3";
 
@@ -26,21 +24,21 @@ class D3Vis extends Component {
     this.createD3Vis();
   }
   createD3Vis() {
-    var width = 450;
-    var height = 400;
+    const width = 450;
+    const height = 400;
 
-    var nodes = d3.range(200).map(function () {
-        return { r: Math.random() * 12 + 4 };
-      }),
+    const nodes = d3.range(200).map(function () {
+      return { r: Math.random() * 12 + 4 };
+    }),
       root = nodes[0];
-    var color = (i) => colors[i];
+    const color = (i) => colors[i];
     root.radius = 0;
     root.fixed = true;
 
     const forceX = d3.forceX(width / 2).strength(0.015);
     const forceY = d3.forceY(height / 2).strength(0.015);
 
-    var force = d3
+    const force = d3
       .forceSimulation()
       .velocityDecay(0.2)
       .force("x", forceX)
@@ -60,7 +58,7 @@ class D3Vis extends Component {
       .nodes(nodes)
       .on("tick", ticked);
 
-    var svg = d3.select(this.node).attr("width", width).attr("height", height);
+    const svg = d3.select(this.node).attr("width", width).attr("height", height);
 
     svg
       .selectAll("circle")
@@ -93,6 +91,7 @@ class D3Vis extends Component {
       force.alphaTarget(0.3).restart(); //reheat the simulation
     });
   }
+
   render() {
     return <svg ref={(node) => (this.node = node)} width={300} height={300} />;
   }

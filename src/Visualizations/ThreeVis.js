@@ -1,4 +1,3 @@
-// Put here the three js stuff
 import React, { Component } from "react";
 import * as THREE from "three";
 
@@ -66,7 +65,7 @@ class ThreeVis extends Component {
   render() {
     return (
       <div
-        style={{ width: "300px", height: "300px" }}
+        style={{ width: "400px", height: "400px" }}
         ref={(mount) => {
           this.mount = mount;
         }}

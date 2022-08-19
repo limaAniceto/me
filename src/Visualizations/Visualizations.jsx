@@ -8,13 +8,12 @@ class Visualizations extends Component {
   render() {
     return (
       <Container>
-        <Card key="vis-description" height={200}>
+        <Card key="vis-description" width={1024} height={200}>
           <CardContent>
             <h2>Description</h2>
-            <p>
-              In this page you can find examples on how to integrate D3.JS and
-              Three.js into a React App
-            </p>
+            <CardText>
+              The purpose of this page is aimed at developers, show-casing an easy-way to integrate D3/Three.js into a react-app.
+            </CardText>
           </CardContent>
         </Card>
         <div style={{ display: "flex", flexDirection: "row" }}>
@@ -53,9 +52,7 @@ const Card = styled.div`
   }
   height: ${({ height }) => (height ? height : "550px")};
   max-height: 550px;
-  width: 550px;
-  max-width: 550px;
-  width: 550px;
+  width: ${({width}) => width ? width : "550px" };
   margin: 10px;
   &:hover {
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.16);

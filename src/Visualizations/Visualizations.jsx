@@ -8,7 +8,7 @@ class Visualizations extends Component {
   render() {
     return (
       <Container>
-        <Card key="vis-description" width={1024} height={200}>
+        <Card key="vis-description" width={950}>
           <CardContent>
             <h2>Description</h2>
             <CardText>
@@ -16,6 +16,7 @@ class Visualizations extends Component {
             </CardText>
           </CardContent>
         </Card>
+
         <div style={{ display: "flex", flexDirection: "row" }}>
           <Card key="d3js">
             <CardContent>
@@ -50,9 +51,9 @@ const Card = styled.div`
   &:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
-  height: ${({ height }) => (height ? height : "550px")};
+  height: ${({ height }) => (height ? height : "550px")}px;
   max-height: 550px;
-  width: ${({width}) => width ? width : "550px" };
+  width: ${({width}) => width ? width : "550px" }px;
   margin: 10px;
   &:hover {
     box-shadow: 0 15px 15px rgba(0, 0, 0, 0.16);

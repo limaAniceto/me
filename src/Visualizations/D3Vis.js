@@ -69,7 +69,6 @@ class D3Vis extends Component {
         return d.r;
       })
       .style("fill", function (d, i) {
-        console.log(color(i % 3));
         return color(i % 3);
       });
 

@@ -4,37 +4,33 @@ import styled from "styled-components";
 import D3Vis from "./D3Vis";
 import ThreeVis from "./ThreeVis";
 
-class Visualizations extends Component {
-  render() {
-    return (
-      <Container>
-        <Card key="vis-description" width={950}>
-          <CardContent>
-            <h2>Description</h2>
-            <CardText>
-              The purpose of this page is aimed at developers, show-casing an easy-way to integrate D3/Three.js into a react-app.
-            </CardText>
-          </CardContent>
-        </Card>
+const Visualizations = () => (
+  <Container>
+    <Card key="vis-description" width={950}>
+      <CardContent>
+        <h2>Description</h2>
+        <CardText>
+          The purpose of this page is aimed at developers, show-casing an easy-way to integrate D3/Three.js into a react-app.
+        </CardText>
+      </CardContent>
+    </Card>
 
-        <div style={{ display: "flex", flexDirection: "row" }}>
-          <Card key="d3js" width={465}>
-            <CardContent>
-              <h2>D3.JS</h2>
-              <D3Vis />
-            </CardContent>
-          </Card>
-          <Card key="threejs" width={465}>
-            <CardContent>
-              <h2>Three.JS</h2>
-              <ThreeVis />
-            </CardContent>
-          </Card>
-        </div>
-      </Container>
-    );
-  }
-}
+    <div style={{ display: "flex", flexDirection: "row" }}>
+      <Card key="d3js" width={465}>
+        <CardContent>
+          <h2>D3.JS</h2>
+          <D3Vis />
+        </CardContent>
+      </Card>
+      <Card key="threejs" width={465}>
+        <CardContent>
+          <h2>Three.JS</h2>
+          <ThreeVis />
+        </CardContent>
+      </Card>
+    </div>
+  </Container>
+);
 
 /* ----------------- Styles ----------------- */
 const Container = styled.div`

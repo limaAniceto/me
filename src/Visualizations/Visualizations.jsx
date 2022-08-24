@@ -18,13 +18,13 @@ class Visualizations extends Component {
         </Card>
 
         <div style={{ display: "flex", flexDirection: "row" }}>
-          <Card key="d3js">
+          <Card key="d3js" width={465}>
             <CardContent>
               <h2>D3.JS</h2>
               <D3Vis />
             </CardContent>
           </Card>
-          <Card key="threejs">
+          <Card key="threejs" width={465}>
             <CardContent>
               <h2>Three.JS</h2>
               <ThreeVis />

@@ -6,6 +6,8 @@ import Visualizations from "./Visualizations";
 import ShowCase from "./ShowCase";
 import styled from "styled-components";
 
+const isMobile =  window.matchMedia("(max-width: 767px)").matches
+
 const MenuLinks = [
   {
     id: "home",
@@ -13,6 +15,7 @@ const MenuLinks = [
     href: `${process.env.PUBLIC_URL}/`,
     to: `${process.env.PUBLIC_URL}/`,
     component: Home,
+    showOnMobile: true,
   },
   {
     id: "vis",
@@ -36,13 +39,13 @@ const App = () => (
     <StyledContainer>
       <Navbar fluid style={{ marginBottom: "0" }} inverse staticTop>
         <Nav>
-          {MenuLinks.filter(({ shouldHide }) => !shouldHide).map(
-            ({ id, label, href, to }) => (
+          {MenuLinks.filter(({ shouldHide }) => !shouldHide)
+            .filter(({ showOnMobile }) => (isMobile && showOnMobile) || !isMobile)
+            .map(({ id, label, href, to }) => (
               <StyledNavItem key={id} componentClass={Link} href={href} to={to}>
                 {label}
               </StyledNavItem>
-            )
-          )}
+            ))}
         </Nav>
       </Navbar>
       <Switch>
